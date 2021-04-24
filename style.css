@@ -1,0 +1,91 @@
+@import url('https://fonts.googleapis.com/css?family=Comfortaa:400,600|Cuprum|Montserrat|Tomorrow:400,600&display=swap');
+
+body {
+    background-color: bisque;
+    margin: 0px;
+}
+
+.top {
+    position: fixed;
+    width: 100%;
+}
+
+.header {
+    position: relative;
+}
+
+.slogan {
+
+    font-family: 'Montserrat', sans-serif;
+    font-size: 2rem;
+    font-weight: 600;
+    color: white;
+    z-index: 1;
+    position: absolute;
+    bottom: 10px;
+    left: 108px;
+}
+
+ul {
+    list-style-type: none;
+    overflow: hidden;
+    margin: 0px;
+    padding: 0px;
+    background-color: rgb(63, 63, 63);
+}
+
+li {
+    float: left;
+}
+
+li a {
+    display: inline-block;
+    padding: 15px;
+    text-decoration: none;
+    color: white;
+    font-size: 18px;
+    font-family: 'Cuprum', sans-serif;
+}
+
+li a:hover {
+    background-color: black;
+}
+
+.active {
+    background-color: red;
+}
+
+.logo {
+    width: 70px;
+    padding-right: 30px;
+    padding-left: 10px;
+}
+
+.content {
+    margin: 10px;
+    font-size: 18px;
+    font-family: 'Tomorrow', sans-serif;
+    word-spacing: 10px;
+    text-align: justify;
+    line-height: 2;
+
+}
+
+.panorama {
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 450px;
+}
+
+.panorama-1 {
+    background-image: url("img/panorama-1.jpg");
+}
+
+.panorama-2 {
+    background-image: url("img/panorama-2.jpg");
+}
+
+.panorama-3 {
+    background-image: url("img/panorama-3.jpg");
+}
